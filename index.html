@@ -24,6 +24,7 @@
                     colors: {
                         'bike-primary': '#e76f51',
                         'bike-primary-bg': 'rgba(231, 111, 81, 0.1)',
+                        'bike-secondary-bg': '',
                     },
                     fontFamily: {
                         poppins: ['Poppins', 'sans-serif'],
@@ -167,6 +168,89 @@
             </div>
         </div>
     </header>
+    <main>
+        <!-- 2nd section -->
+        <section class="py-10 bg-base-200 mt-16">
+            <div class="text-center mb-10">
+                <h4 class="text-3xl font-bold mb-2">Featured Bikes In This Year</h4>
+                <p class="text-gray-600">Best bike collection</p>
+                <div class="w-24 h-1 bg-blue-600 mx-auto mt-2 rounded"></div>
+            </div>
+
+            <div class="flex flex-wrap justify-center items-center gap-10">
+                <img src="./images/others/feature-bike.png" alt="Bike 1"
+                    class="w-72 hover:scale-105 transition-transform duration-300" />
+                <img src="./images/others/feature-bike.png" alt="Bike 2"
+                    class="w-72 hover:scale-105 transition-transform duration-300 grayscale hover:grayscale-0" />
+                <img src="./images/others/feature-bike.png" alt="Bike 3"
+                    class="w-72 hover:scale-105 transition-transform duration-300" />
+            </div>
+        </section>
+
+        <!-- 3rd section -->
+        <section class="py-10 bg-base-200">
+            <h1 class="text-center text-5xl font-bold mb-10 text-gray-800">
+                Latest <span class="text-blue-600">News</span>
+            </h1>
+
+            <div class="container mx-auto flex flex-wrap justify-center gap-8">
+
+                <!-- Card 1 -->
+                <div class="card bg-base-100 shadow-xl w-80">
+                    <figure>
+                        <img src="./images/others/latest1.png" alt="bike" class="rounded-t-lg" />
+                    </figure>
+                    <div class="card-body text-left">
+                        <h2 class="card-title text-2xl font-bold">Ducati XDIAVEL S-73</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. <br> Lacus, fermentum amet
+                            faucibus sed id nisi lectus at.
+                        </p>
+                        <div class="card-actions mt-4">
+                            <button class="btn bg-bike-primary text-white w-full">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card bg-base-100 shadow-xl w-80">
+                    <figure>
+                        <img src="./images/others/latest2.png" alt="bike" class="rounded-t-lg" />
+                    </figure>
+                    <div class="card-body text-left">
+                        <h2 class="card-title text-2xl font-bold">Motorcycles & Scooters</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. <br> Lacus, fermentum amet
+                            faucibus sed id nisi lectus at.
+                        </p>
+                        <div class="card-actions mt-4">
+                            <button class="btn bg-bike-primary text-white w-full">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card bg-base-100 shadow-xl w-80">
+                    <figure>
+                        <img src="./images/others/latest3.png" alt="bike" class="rounded-t-lg" />
+                    </figure>
+                    <div class="card-body text-left">
+                        <h2 class="card-title text-2xl font-bold">2021 Honda CBR500R</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. <br> Lacus, fermentum amet
+                            faucibus sed id nisi lectus at.
+                        </p>
+                        <div class="card-actions mt-4">
+                            <button class="btn bg-bike-primary text-white w-full">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
 </body>
 
 </html>
